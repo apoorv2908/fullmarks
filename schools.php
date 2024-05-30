@@ -14,7 +14,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT * FROM users";
+$sql = "SELECT * FROM schools";
 $result = mysqli_query($conn, $sql);
 
 $users = [];
